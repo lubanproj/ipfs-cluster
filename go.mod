@@ -1,4 +1,4 @@
-module github.com/ipfs-cluster/ipfs-cluster
+module github.com/lubanproj/ipfs-cluster
 
 require (
 	contrib.go.opencensus.io/exporter/jaeger v0.2.1
@@ -35,7 +35,7 @@ require (
 	github.com/ipfs/go-ipns v0.1.2
 	github.com/ipfs/go-log/v2 v2.5.1
 	github.com/ipfs/go-merkledag v0.6.0
-	github.com/ipfs/go-mfs v0.1.3-0.20210507195338-96fbfa122164
+	github.com/ipfs/go-mfs v0.2.1
 	github.com/ipfs/go-path v0.3.0
 	github.com/ipfs/go-unixfs v0.4.0
 	github.com/ipld/go-car v0.4.0
