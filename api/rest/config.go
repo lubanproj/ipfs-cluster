@@ -6,8 +6,8 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/api/common"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api/common"
 )
 
 const configKey = "restapi"

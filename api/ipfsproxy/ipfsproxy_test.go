@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/test"
 
 	cmd "github.com/ipfs/go-ipfs-cmds"
 	logging "github.com/ipfs/go-log/v2"

@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/adder/adderutils"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/rpcutil"
+	"github.com/lubanproj/ipfs-cluster/adder/adderutils"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/rpcutil"
 
 	handlers "github.com/gorilla/handlers"
 	mux "github.com/gorilla/mux"
@@ -190,7 +190,7 @@ func New(cfg *Config) (*Server, error) {
 	}
 
 	// See: https://github.com/ipfs/go-ipfs/issues/5168
-	// See: https://github.com/ipfs-cluster/ipfs-cluster/issues/548
+	// See: https://github.com/lubanproj/ipfs-cluster/issues/548
 	// on why this is re-enabled.
 	s.SetKeepAlivesEnabled(true) // A reminder that this can be changed
 

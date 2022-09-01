@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/test"
 )
 
 func TestOperation(t *testing.T) {

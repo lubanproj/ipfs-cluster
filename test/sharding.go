@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api"
 	files "github.com/ipfs/go-ipfs-files"
 	format "github.com/ipfs/go-ipld-format"
 

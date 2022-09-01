@@ -7,7 +7,7 @@ sharness/lib/sharness
 sharness/test-results
 sharness/trash*
 vendor/
-
+.idea/
 
 raftFolderFromTest*
 peerstore

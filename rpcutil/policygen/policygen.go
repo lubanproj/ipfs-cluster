@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	cluster "github.com/ipfs-cluster/ipfs-cluster"
+	cluster "github.com/lubanproj/ipfs-cluster"
 )
 
 func rpcTypeStr(t cluster.RPCEndpointType) string {

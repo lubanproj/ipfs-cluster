@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/datastore/inmem"
-	"github.com/ipfs-cluster/ipfs-cluster/state"
-	"github.com/ipfs-cluster/ipfs-cluster/state/dsstate"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/datastore/inmem"
+	"github.com/lubanproj/ipfs-cluster/state"
+	"github.com/lubanproj/ipfs-cluster/state/dsstate"
 	"github.com/multiformats/go-multicodec"
 	"github.com/multiformats/go-multihash"
 

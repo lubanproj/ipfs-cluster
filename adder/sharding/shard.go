@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ipfs-cluster/ipfs-cluster/adder"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/adder"
+	"github.com/lubanproj/ipfs-cluster/api"
 	ipld "github.com/ipfs/go-ipld-format"
 
 	cid "github.com/ipfs/go-cid"

@@ -10,8 +10,8 @@ import (
 
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/adder"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/adder"
+	"github.com/lubanproj/ipfs-cluster/api"
 
 	humanize "github.com/dustin/go-humanize"
 	cid "github.com/ipfs/go-cid"

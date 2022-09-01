@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api"
 
 	rpc "github.com/libp2p/go-libp2p-gorpc"
 

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ipfs-cluster/ipfs-cluster/config"
+	"github.com/lubanproj/ipfs-cluster/config"
 	"github.com/kelseyhightower/envconfig"
 )
 

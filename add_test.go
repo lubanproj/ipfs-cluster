@@ -10,9 +10,9 @@ import (
 	"time"
 
 	files "github.com/ipfs/go-ipfs-files"
-	"github.com/ipfs-cluster/ipfs-cluster/adder"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/adder"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/test"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 )
 

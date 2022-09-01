@@ -6,8 +6,8 @@ import (
 	"context"
 	"sync"
 
-	adder "github.com/ipfs-cluster/ipfs-cluster/adder"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	adder "github.com/lubanproj/ipfs-cluster/adder"
+	"github.com/lubanproj/ipfs-cluster/api"
 
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"

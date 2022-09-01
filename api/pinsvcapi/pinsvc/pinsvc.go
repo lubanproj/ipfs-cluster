@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	types "github.com/ipfs-cluster/ipfs-cluster/api"
+	types "github.com/lubanproj/ipfs-cluster/api"
 )
 
 func init() {

@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/datastore/inmem"
-	"github.com/ipfs-cluster/ipfs-cluster/state"
-	"github.com/ipfs-cluster/ipfs-cluster/state/dsstate"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/datastore/inmem"
+	"github.com/lubanproj/ipfs-cluster/state"
+	"github.com/lubanproj/ipfs-cluster/state/dsstate"
+	"github.com/lubanproj/ipfs-cluster/test"
 
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	rpc "github.com/libp2p/go-libp2p-gorpc"

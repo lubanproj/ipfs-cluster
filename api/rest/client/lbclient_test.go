@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api"
 	ma "github.com/multiformats/go-multiaddr"
 )
 

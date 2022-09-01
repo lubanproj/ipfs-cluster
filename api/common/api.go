@@ -28,8 +28,8 @@ import (
 	"time"
 
 	jwt "github.com/golang-jwt/jwt/v4"
-	types "github.com/ipfs-cluster/ipfs-cluster/api"
-	state "github.com/ipfs-cluster/ipfs-cluster/state"
+	types "github.com/lubanproj/ipfs-cluster/api"
+	state "github.com/lubanproj/ipfs-cluster/state"
 	logging "github.com/ipfs/go-log/v2"
 	gopath "github.com/ipfs/go-path"
 	libp2p "github.com/libp2p/go-libp2p"
@@ -186,7 +186,7 @@ func NewAPIWithHost(ctx context.Context, cfg *Config, h host.Host, routes func(*
 	}
 
 	// See: https://github.com/ipfs/go-ipfs/issues/5168
-	// See: https://github.com/ipfs-cluster/ipfs-cluster/issues/548
+	// See: https://github.com/lubanproj/ipfs-cluster/issues/548
 	// on why this is re-enabled.
 	s.SetKeepAlivesEnabled(true)
 	s.MaxHeaderBytes = cfg.MaxHeaderBytes
@@ -245,7 +245,7 @@ func (api *API) setupLibp2p() error {
 	if len(api.config.Libp2pListenAddr) > 0 {
 		// We use a new host context. We will call
 		// Close() on shutdown(). Avoids things like:
-		// https://github.com/ipfs-cluster/ipfs-cluster/issues/853
+		// https://github.com/lubanproj/ipfs-cluster/issues/853
 		h, err := libp2p.New(
 			libp2p.Identity(api.config.PrivateKey),
 			libp2p.ListenAddrs(api.config.Libp2pListenAddr...),

@@ -20,7 +20,7 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"github.com/rs/cors"
 
-	"github.com/ipfs-cluster/ipfs-cluster/config"
+	"github.com/lubanproj/ipfs-cluster/config"
 )
 
 const minMaxHeaderBytes = 4096

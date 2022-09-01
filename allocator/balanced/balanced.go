@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"sort"
 
-	api "github.com/ipfs-cluster/ipfs-cluster/api"
+	api "github.com/lubanproj/ipfs-cluster/api"
 	logging "github.com/ipfs/go-log/v2"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 	rpc "github.com/libp2p/go-libp2p-gorpc"

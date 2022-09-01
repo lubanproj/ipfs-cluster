@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/version"
+	"github.com/lubanproj/ipfs-cluster/version"
 )
 
 // This file has the collection of header-related functions

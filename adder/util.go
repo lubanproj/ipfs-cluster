@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api"
 	"go.uber.org/multierr"
 
 	cid "github.com/ipfs/go-cid"

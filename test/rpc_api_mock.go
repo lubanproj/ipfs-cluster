@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/state"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/state"
 
 	gopath "github.com/ipfs/go-path"
 	host "github.com/libp2p/go-libp2p-core/host"

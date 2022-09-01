@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/datastore/inmem"
-	"github.com/ipfs-cluster/ipfs-cluster/state/dsstate"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/datastore/inmem"
+	"github.com/lubanproj/ipfs-cluster/state/dsstate"
+	"github.com/lubanproj/ipfs-cluster/test"
 
 	libp2p "github.com/libp2p/go-libp2p"
 	host "github.com/libp2p/go-libp2p-core/host"

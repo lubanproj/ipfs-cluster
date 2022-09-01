@@ -10,8 +10,8 @@ import (
 	"mime/multipart"
 	"strings"
 
-	"github.com/ipfs-cluster/ipfs-cluster/adder/ipfsadd"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/adder/ipfsadd"
+	"github.com/lubanproj/ipfs-cluster/api"
 	"github.com/ipfs/go-unixfs"
 	"github.com/ipld/go-car"
 	peer "github.com/libp2p/go-libp2p-core/peer"

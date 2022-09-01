@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/config"
+	"github.com/lubanproj/ipfs-cluster/config"
 	"github.com/kelseyhightower/envconfig"
 )
 

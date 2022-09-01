@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs-cluster/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/api"
 	"go.opencensus.io/trace"
 )
 

@@ -11,8 +11,8 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 
 	merkledag "github.com/ipfs/go-merkledag"
-	"github.com/ipfs-cluster/ipfs-cluster/api"
-	"github.com/ipfs-cluster/ipfs-cluster/test"
+	"github.com/lubanproj/ipfs-cluster/api"
+	"github.com/lubanproj/ipfs-cluster/test"
 )
 
 func init() {

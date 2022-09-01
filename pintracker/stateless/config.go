@@ -7,7 +7,7 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	"github.com/ipfs-cluster/ipfs-cluster/config"
+	"github.com/lubanproj/ipfs-cluster/config"
 )
 
 const configKey = "stateless"

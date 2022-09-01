@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/hex"
 
-	config "github.com/ipfs-cluster/ipfs-cluster/config"
+	config "github.com/lubanproj/ipfs-cluster/config"
 	ds "github.com/ipfs/go-datastore"
 	namespace "github.com/ipfs/go-datastore/namespace"
 	ipns "github.com/ipfs/go-ipns"
